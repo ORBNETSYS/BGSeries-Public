@@ -9,10 +9,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Fixed: Resolved a bug on new versions of Milestone versions where all point state would be set to "unassigned". 
 - Changed: Logging of bypassed point states only when changes occur instead of logging all point states every 5 seconds.
 
-## [1.0.2] - 06.02.2023
+## [1.0.2] - 16.06.2022
 
-- TODO
-- TODO
+- TODO Fixed xml serialization error
+- TODO Fixed question marks on output
+- Fixed area icon blinking not setting the icon to the correct one at the end.
+- Fixed point events firing when the state wasn't changed
 
 ## [1.0.1] - 02.05.2022
 
